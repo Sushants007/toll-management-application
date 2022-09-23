@@ -1,0 +1,29 @@
+.heading{
+    box-shadow: 5px 10px 18px gray;
+}
+.page__header, .left__side, .right__side{
+display: flex;
+
+}
+.page__header{
+    justify-content: space-between;
+}
+.right__side{
+    margin-left:auto;
+}
+
+.left{
+    margin-right: 10px;
+}
+.right{
+    margin-left: 10px;
+}
+.search__button{
+    display: none;
+}
+.button{
+    background: lightskyblue;
+    text-decoration: none;
+    color: black;
+    border: none;
+}
